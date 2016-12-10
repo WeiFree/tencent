@@ -1,0 +1,477 @@
+html{
+	width: 100%;
+}
+body{
+	background-color: #2e2db9;
+	min-width: 950px;
+	width: 100%;
+}
+#mask{
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+#mask_show{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.3);
+	filter:alpha(opacity=30)\9; 
+	background: rgb(0,0,0)\9;
+}
+.ix_login{
+	position: absolute;
+	width: 550px;
+	height: 350px;
+	background: #fff;
+	left: 50%;
+	top: 50%;
+	top: 25%\9;
+	left: 30%\9;
+	transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	text-align: center;
+	line-height: 30px;
+}
+.ix_login h2{
+	margin-top: 50px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	color: #333333;
+}
+.ix_login p{
+	color: #444;
+}
+.ix_login a{
+	text-decoration: none;
+	color: #0C76FF;
+}
+.ix_login span{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-size: cover ;
+}
+
+.ix_login .mask_close{
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	cursor: pointer;
+	color: #565656;
+	text-align: center;
+	line-height: 20px;
+	font-size: 20px;
+}
+.ix_login .longin_bot{
+	display: flex;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	
+}
+.ix_login .longin_bot span{
+	height: 30px;
+	border-right:1px solid #ccc ;
+	color: #333;
+	font-size: 13px;
+	cursor: pointer;
+}
+.ix_login .longin_bot span:hover{
+	text-decoration: underline;
+}
+.ix_erwei{
+	border: 1px solid #ccc;
+	background: url(../img/郑锦伟/huodongzhongxin/erweima.jpg) no-repeat;
+	
+}
+.ix_toux{
+	position: relative;
+	box-shadow: 0 0 5px 1px #0C76FF;
+	background: url(../img/郑锦伟/huodongzhongxin/touxiang.jpg) no-repeat;
+}
+.ix_toux p{
+	position: absolute;
+	bottom: -25px;
+	left: 20%;
+	
+}
+#ix_header{
+	background: #fff;
+	display: flex;
+	width: 100%;
+	border-bottom: 1px solid silver;
+}
+#ix_header_content{
+	background: #fff;
+	position: relative;
+	width: 85%;
+	margin: 0 auto;
+}
+#ix_header_content .ix_head_left{
+	float: left;
+	margin-left: 3%;
+	display: flex;
+}
+#ix_header_content>img{
+	float: left;
+	margin-top: 20px;
+}
+.ix_head_left>li{
+	background: #fff;
+	position: relative;
+	float: left;
+}
+.ix_head_left>li:hover>a{
+	color: rgb(0,178,255);
+}
+.ix_head_left>li:hover>a>span{
+	transform: rotate(180deg);
+	border-top: 5px solid  rgb(0,178,255);
+}
+.ix_head_left>li>a span{/*箭头样式*/
+	display: inline-block;
+	border-bottom: 5px solid transparent;
+	border-top: 5px solid  #444;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	transition: all .5s;
+}
+.ix_head_left>li>a{
+	display: inline-block;
+	width: 100px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	text-decoration: none;
+	color: #333;
+	border-left: 1px solid #eee;
+	border-top:3px solid  transparent;
+	
+}
+.ix_head_left>li>ul{
+	position: absolute;
+	z-index: 100;
+	background: #fff;
+	overflow: hidden;
+	height: 0;
+}
+.ix_head_left>li>ul>li a{
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	font-size: 13px;
+	text-align: center;
+	text-decoration: none;
+	color: #333;
+}
+.ix_head_right{
+	display: flex;
+	position: absolute;
+	right: -50px;
+	float: right;
+	margin-top: 15px;
+}
+.ix_head_right .banben{
+	display: inline-block;
+	margin-left: 20px;
+	width: 40px;
+	height: 42px;
+	background: url(../img/郑锦伟/huodongzhongxin/banben.png) #0C76FF -4px -3px;
+	-ms-background-position-x: -4px;
+	-o-background-position-x: -4px;
+	-webkit-background-position-x: -4px;
+	-moz-background-position-x: -4px;
+	-ms-background-position-y: -3px;
+
+}
+#banben1{
+	background-position:-54px -3px;
+	-ms-background-position-x: -54px;
+}
+#banben2{
+	background-position:-98px -3px;
+	-ms-background-position-x: -98px;
+}
+#ix_denglu{
+	width: 39px;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	margin-left: 40px;
+	color: cornflowerblue;
+	cursor: pointer;
+}
+#ix_denglu:hover{
+	text-decoration: underline;
+}
+/*头部结束*/
+.big-box{
+	width: 100%;
+}
+.w{
+	
+	width: 1000px;
+	margin: 0 auto;
+	
+}
+#bg{
+	width: 100%;
+	height: 1220px;
+	background: url(../img/郑锦伟/12zhuang/2Q==.jpg) center;
+}
+.top-logo{
+	position: relative;
+	width:650px;
+	height: 507px;
+	margin: 0 auto;
+}
+.top-logo a{
+	display: inline-block;
+	margin-top:30px ;
+}
+.yijia{
+	float: right;
+}
+.downguanjia{
+	cursor: pointer;
+	background: url(../img/郑锦伟/12zhuang/xiazaiguanija.png);
+	color: white;
+	padding-left: 40px;
+	font: 25px "微软雅黑";
+	text-align: center;
+	line-height: 80px;
+	position: absolute;
+	width:267px;
+	height: 80px;
+	bottom: 30px;
+	left: 25%;
+}
+.gift-box{
+	overflow:hidden;
+	position: relative;
+	height: 754px;
+}
+.tip{
+	width: 750px;
+	height: 40px;
+	position: absolute;
+	top: 37px;
+	left:248px;
+	font: 16px "微软雅黑";
+	color: #69e5fd;
+}
+.gift{
+	width: 100%;
+	height: 704px;
+	margin-top:123px;
+}
+.gift .fc{
+	float: left;
+	margin-bottom: 35px;
+	margin-left: 0;
+}
+.gift dl dd{
+	text-align: center;
+	float: left;
+    margin-right: 12px;
+    width: 178px;
+    height: 210px;
+    background: url(../img/郑锦伟/12zhuang/other.png) no-repeat;
+}
+.gift dl dd span{
+	display: block;
+	margin-top: -35px;
+}
+.gift dl dd p{
+	color: #5801d4 ;
+	font: 14px "微软雅黑";
+	display: block;
+}
+#first{
+	text-align: center;
+	width: 234px;
+    height: 252px;
+    margin-top: -36px;
+    background: url(../img/郑锦伟/12zhuang/first.png)  no-repeat;
+}
+.gift .sec dd{
+	margin-right: 25px;
+}
+#first span{
+	display: block;
+	margin-top: -48px;
+}
+#first p{
+	padding-top:0 ;
+	font:18px "微软雅黑";
+	line-height: 26px;
+	color: #5801d4;
+	
+}
+.gift-btnbox{
+	float: left;
+    width: 100%;
+    height: 120px;
+    text-align: center;
+}
+#gift-btn{
+	cursor: pointer;
+	margin-top: 32px;
+    width: 320px;
+    height: 88px;
+    display: inline-block;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 88px;
+    background: url(../img/郑锦伟/12zhuang/liwu.png) no-repeat;
+    text-indent: 40px;
+}
+.gift-btnbox a{
+	font:16px "微软雅黑";
+	color: white;
+}
+#bg2{
+	width: 100%;
+	background: url(../img/郑锦伟/12zhuang/bg1.jpg) center;
+	height: 1200px;
+}
+.jihuo li{
+	margin-right: 2px;
+	margin-top: 45px;
+	 float: left;
+     width: 248px;
+     height: 127px;
+     text-align: center;
+     font: bold 18px/128px "微软雅黑";
+     cursor: pointer;
+     background: url(../img/郑锦伟/12zhuang/ODCW6xbhmQ7oPeJyc1kM4lLdvXaXLppqrW4bEOFYAMAANxOE6WiR7glWSAAAAAASUVORK5CYII=.png) no-repeat 0 0;
+}
+.jihuo .n2{
+	background: url(../img/郑锦伟/12zhuang/ODCW6xbhmQ7oPeJyc1kM4lLdvXaXLppqrW4bEOFYAMAANxOE6WiR7glWSAAAAAASUVORK5CYII=.png) no-repeat -250px 0;
+}
+.jihuo .n3{
+	background: url(../img/郑锦伟/12zhuang/ODCW6xbhmQ7oPeJyc1kM4lLdvXaXLppqrW4bEOFYAMAANxOE6WiR7glWSAAAAAASUVORK5CYII=.png) no-repeat -498px 0;
+}
+.jihuo .n4{
+	background: url(../img/郑锦伟/12zhuang/ODCW6xbhmQ7oPeJyc1kM4lLdvXaXLppqrW4bEOFYAMAANxOE6WiR7glWSAAAAAASUVORK5CYII=.png) no-repeat -747px 0;
+}
+.nr{
+	display: none;
+	width: 1000px;
+	height: 405px;
+}
+.current{
+	display:inline-block;
+}
+.il{
+	margin-top: 3px;
+	float: left;
+	width: 355px;
+}
+.ir{
+	width: 640px;
+	margin-top: 3px;
+	float: left;	
+}
+.nr h3{
+	color:#00BFFF;
+	font: 36px "微软雅黑";
+	line-height: 60px;
+}
+.title{
+	color: white;
+	font: 20px "微软雅黑";
+	vertical-align: top;
+}
+.nr a{
+	color: white;
+	text-decoration: underline;
+}
+.nr p{
+	color: white;
+	font:16px "微软雅黑";
+}
+.nrbtn{
+	cursor: pointer;
+	margin:20px 0;
+	display: block;
+	width: 248px;
+	height: 63px;
+	color: white;
+	background: url(../img/郑锦伟/12zhuang/jihuo.png);
+	text-align: center;
+	font: 20px/63px "微软雅黑";
+}
+.wenhou{
+	margin-top: 50px;
+}
+.wenhou h3{
+	color:#00BFFF;
+	font: 30px "微软雅黑";
+	padding-bottom: 20px;
+}
+.left{
+	float: left;
+	cursor: pointer;
+}
+.right{
+	cursor: pointer;
+	float: right;
+}
+.ruls{
+	clear: both;
+}
+.ruls h3{
+	color:#00BFFF;
+	font: 30px "微软雅黑";
+	padding-bottom: 20px;
+}
+.ruls p{
+	font: 16px "微软雅黑";
+	color: #C0C0C0;
+}
+.ruls p a{
+	color:white;
+	text-decoration: underline;
+}
+.nvshen{
+	width: 156px;
+	height: 207px;
+	position: fixed;
+	top: 200px;
+	right: 20px;
+}
+.nvshen-close{
+	cursor: pointer;
+	position: absolute;
+	right: 0;
+}
+.weibu{
+	background-color: #000a24;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	font: 12px "微软雅黑";
+}
+.weibu span{
+	color: aqua;
+}
+.weibu a{
+	display:inline-block;
+	margin: 30px 0 10px;
+	color: aqua;
+	font: 12px "微软雅黑";
+}
+.weibu p{
+	color: aqua;
+}
+

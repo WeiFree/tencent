@@ -1,0 +1,248 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.mgr{
+	min-width:1000px;
+    height: 39px;
+    background-color: #ffffff;
+    left: 0;
+    top: 0 !important;
+    text-align: left;
+    font-size: 15px;
+    z-index:800;
+    font-family: 微软雅黑;
+    position: absolute;
+    width: 100%;
+    border-bottom: solid 1px #382631;
+}
+.mgr-logo{
+	width: 130px;
+	height: 39px;
+	background:url(../img/logo.png) ;
+}
+.mgr-u{
+	width: 1000px;
+    padding: 0 5px;
+    margin: 0 auto;
+    position: relative;
+    list-style: none;
+    z-index: 100;
+}
+.mgr-u li{
+	height: 39px;
+    line-height: 39px;
+    float:left;
+    list-style: none;
+    
+}
+.mgr-lnk li{
+	background: url(../img/line.png) no-repeat;
+}
+.mgr-lnk ul li a{
+	color: #373737;
+    font-size: 14px;
+    font-family: 微软雅黑,Simsun;
+    display: inline-block;
+    width: 80px;
+    height: 39px;
+    line-height: 39px;
+    text-decoration: none;
+    text-align: center;
+}
+#login{
+	width: 112px;
+	height: 39px;
+	float: right;
+	line-height: 39px;
+	text-align: center;
+	position: absolute;
+	right:300px;
+}
+#logi{
+	color: #388DDF;
+    text-decoration: none;
+    cursor: pointer;
+    float: right;
+    font-size: 14px;
+    font-family: 微软雅黑,Simsun;
+    color: black;
+}
+#navlogin{
+	width: 60px;
+	height: 39px;
+	float: right;
+	line-height: 39px;
+	text-align: center;
+	position: absolute;
+	right:260px;
+	text-decoration: none;
+	color: skyblue;
+	font-size: 14px;
+    font-family: 微软雅黑,Simsun;
+}
+.mask{
+			width: 100%;
+			height: 100%;
+			background:rgba(0,0,0,.2);
+			position: fixed;
+			z-index:800;	
+			display: none;
+		}
+		.logi{
+			width: 400px;
+			height: 300px;
+			background:#FFFFFF;
+			margin:200px auto;
+			position: relative;
+			right:300px;
+		}
+		.close-abc{
+			width:20px;
+			height:20px;
+			background:pink;
+			position: absolute;
+			left:380px;
+			text-align: center;
+		}
+		#close-abc:hover{
+			cursor: pointer;
+			background: indianred;
+		}	
+	 .tt{
+	 	width: 100%;
+	 	min-width: 1000px;
+	 }
+	 .tt img{
+	 	width: 100%;
+	 	min-width: 1000px;
+	 	margin: 0 auto;
+	 	position: relative;
+	 }
+	 #xz{
+	 	display: inline-block;
+	 	width:182px;
+	 	height:33px;
+	 	position:relative;
+	 	top:-150px;
+	 	left:550px;
+	 }
+	 #as{
+	 	 font-size: 14px;
+         color: #323232;
+         line-height:27px;
+         width:600px;
+         height:50px;
+         margin:10px auto;
+        padding-top:10px ;
+       
+	 }
+ .outer1, .outer3 {
+    background-color: #f6f6f6;
+}
+.act-blk-otuer1, .act-blk-otuer2,.act-blk-otuer3,.act-blk-otuer4{
+    width: 100%;
+    height:300px;
+    position: relative;
+    z-index: 1;
+}
+.act-blk {
+    width: 1024px;
+    height:300px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin: 0 auto;
+}
+.act-blk1 .left, .act-blk3 .left {
+    padding-right: 25px;
+}
+.act-blk .t {
+    margin-bottom: 24px;
+}
+.act-blk .t {
+    font-size: 22px;
+    color: #145b89;
+    height: 57px;
+    line-height: 57px;
+}
+.act-blk .t img {
+    display: inline;
+    width: 57px;
+    height: 57px;
+    line-height: 57px;
+    vertical-align: middle;
+    padding-right: 15px;
+}
+p {
+    display: block;
+    width: 400px;
+    height: 200px;
+}
+.act-blk1 p{
+	position: relative;
+	left: 20px;
+}
+.act-blk1 .right, .act-blk3 .right {
+    width: 478px;
+    height: 288px;
+}
+.act-blk1 .largeimg {
+    width: 100%;
+    height: 100%;
+    float: right;
+    position: relative;
+    left:400px;
+    top:-260px;
+}
+.act-blk2 .left, .act-blk4 .left {
+    width: 478px;
+    height: 288px;
+}
+.act-blk2 .right, .act-blk4 .right {
+    padding-left: 25px;
+}
+.act-blk2 p{
+	position: relative;
+	top:-250px;
+	left:400px;
+}
+.act-blk2 .largeimg{
+	position: relative;
+	top:-100px;
+	left:-20px;
+}
+.act-blk3 .largeimg{
+	position: relative;
+	top:-290px;
+	left:395px;
+}
+.act-blk3 p{
+	position: relative;
+	left: 10px;
+}
+.act-blk4 p{
+	position: relative;
+	left:420px;
+	top:-260px;
+}
+.footer {
+	position:absolute;
+    font-size: 12px;
+    line-height: 1.8em;
+    color: #9E9E9E;
+    text-align: center;
+     left:300px;
+    
+}
+.footer a {
+    color: #9E9E9E;
+    text-decoration: none;
+    text-align: center;
+}
+.copyright{
+	position:absolute;
+	top:55px;
+}
+
+
+

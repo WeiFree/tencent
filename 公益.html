@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <style type="text/css">
+            *{
+                margin:0;
+                padding:0;
+            }
+            html{
+                height: 100%;
+            }
+            body{
+                height: 100%;
+            }
+            ul{
+                list-style: none;
+                height: 100%;
+            }
+            ul li{
+                height: 100%;
+                width: 100%;
+            }
+            ul li:nth-child(1){
+               background: url(img/bg1.jpg) no-repeat;
+               position: relative;
+            }
+            #logo{
+            	position: absolute;
+            	top: 10px;
+            	left: 10px;
+            }
+            #ai{
+            	position: absolute;
+            	top:70px;
+            	left:300px;
+            }
+            #gy{
+            	width: 350px;
+            	height: 150px;
+            	position: absolute;
+            	top:500px;
+            	left: 300px;
+            	color: #ed7e69;
+            }
+            .nav{
+            	position: absolute;
+            	left:600px;
+            	top:5px;
+            	
+            }
+            .nav a{
+            	float: left;
+            	color:#ed7e69 ;
+            	padding: 10px;
+            }
+            #xz{
+            	position: absolute;
+            	top:600px;
+            	left: 330px;
+            }
+            .lown{
+            	position: absolute;
+            	top:630px;
+            	left:580px;
+            }
+            .lown a{
+            	text-decoration: none;
+            	color:darkgray;
+            }
+            .lown a:hover{
+            	color:black;
+            	text-decoration: underline;
+            }
+            ul li:nth-child(2) img{
+            	width: 100%;
+            	position: absolute;
+            	top:583px;
+            }
+            ul li:nth-child(2) p{
+            	width: 600px;
+            	height: 35px;
+            	color: #F6F6F6;
+            	position: absolute;
+            	top:585px;
+            	left:250px;
+            }
+            ul li:nth-child(2){
+                background: url(img/bg2-1-2.jpg) no-repeat;
+                position: relative;
+            }
+            ul li:nth-child(3){
+                background:#faf5e7 no-repeat;
+                 position: relative;
+            }
+            #bg3{
+            	position: absolute;
+            	left:200px;
+            	top:100px;
+            }
+            #bg3m{
+            	position: absolute;
+            	left:200px;
+            	top:250px;
+            }
+            #js{
+            	width:500px;
+            	height: 200px;
+            	position: absolute;
+            	left:250px;
+            	top:100px;
+            }
+            #ax{
+            	width:500px;
+            	height: 200px;
+            	position: absolute;
+            	left:250px;
+            	top:230px;
+            }
+            #hd{
+            	width:500px;
+            	height: 200px;
+            	position: absolute;
+            	left:250px;
+            	top:450px;
+            }
+            #zb{
+            	width:500px;
+            	height: 200px;
+            	position: absolute;
+            	left:250px;
+            	top:540px;
+            }
+            ul li:nth-child(4){
+                background: red no-repeat;
+            }
+            ol{
+                position: fixed;
+                right:10px;
+                top:350px;
+            }
+            ol li{
+                width:15px;
+                height:15px;
+                border-radius:7.5px 7.5px 7.5px 7.5px;
+                margin: 5px;
+                text-align:center;
+                line-height: 30px;
+                cursor: pointer;
+                list-style: none;
+            }
+            ol li:nth-child(1){
+               background:url(img/main_dot.png) no-repeat 0 0;
+            }
+            ol li:nth-child(2){
+                background:url(img/main_dot.png) no-repeat 0 0;
+            }
+            ol li:nth-child(3){
+               background:url(img/main_dot.png) no-repeat 0 0;
+            }
+            ol li.current{
+            	background:gray;
+            	cursor: pointer;	
+            }
+            .footer {
+	        position:absolute;
+            font-size: 12px;
+            line-height: 1.8em;
+            color: #9E9E9E;
+            text-align: center;
+            left:350px;
+            top:2300px;    
+                }
+.footer a {
+    color: #9E9E9E;
+    text-decoration: none;
+    text-align: center;
+}
+.copyright{
+	position:absolute;
+	top:20px;
+}
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li>
+            	<span class="nav">
+            		<a href="index.html">官网首页</a>
+            		<a href="#">产品首页</a>
+            		<a href="#">产品功能</a>
+            	</span>
+            	<img id="logo" src="img/logo-1.png"/>
+            	<img id="ai" src="img/text.png" />
+            	<p id="gy"><strong>加入“清理+公益”行动，让病患孤儿重获新生</strong>
+            	他们，是出生就没有见过爸爸妈妈的孩子， 80%以上患有严重的
+            	先天性疾病，大多病情危重，需要及时的抢救治疗及康复训练...
+            	已有 11232000 人加入行动， 共筹集 22248000 颗爱心
+            	</p>
+            	<img id="xz" src="img/clean-imm.png" />
+            	<span class="lown"><img src="img/download-gj-gray.png"/><a id="lown" href="#">下载管家活动版V11.7</a></span>
+            </li>
+            <li><img src="img/bg2-broad.png"/> 
+            <p><strong>爱佑新生，让病患孤儿重获新生</strong><br/>有一群出生就没有见过爸爸妈妈的孩子， 他们80%以上患有严重的先天性疾病，
+            	大多病情危重，需要及时的抢救治疗及康复训练。而父母的抛弃他们可能没有
+            	办法体会这个世界的美丽与善意。参与清理+活动，帮助孤残儿童回归家庭，回归社会</p>
+            </li>
+            <li>
+            	<img  id="bg3m"src="img/bg3-normal-titles.png" />
+            	<img id="bg3"src="img/bg3-big-title.png" />
+            	<p id="js"><strong>活动规则介绍</strong>
+                                    点击“马上行动”按钮，即可开始垃圾清理、加入“清理+”行动。由于功能在试推广阶段，配置文件正在逐步下发，如清理结束后未获得爱心，请：
+                                  （1）确认已安装电脑管家活动专享版本（V11.7）并进行了一次电脑重启耐心等待（管哥会努力尽快把爱心传递到！）；
+                                  （2）本期爱心筹集期：2016.7.18-2016.9.16。本活动最终解释权归电脑管家。</p>
+                  <p id="ax"><strong>爱心的作用，及如何获得及捐赠？</strong>
+                                 此次活动的总目标为筹集2000万颗爱心，达成目标后彤程集团有限公司将捐出100万元公益善款，定向用于“爱佑新生”项目。 管家将会不定期的通过tips的形式，向捐赠过爱心的用户反馈项目执行情况，以便用户更好地了解项目进展。
+                1、获得爱心：完成一次清理，即可获得一颗爱心。 每个ID每天最多可以获得1颗爱心。
+                2、捐赠爱心：（1）用户在客户端清理完成后弹窗提醒、或个人中心“公益”页面上，点击“立即捐赠”就能完成爱心捐赠。每个ID每天最多可以捐赠1颗爱心。 (2)获得爱心后不点击捐赠，爱心会存入该ID“可捐赠爱心”中。您可在客户端垃圾清理首页或个人中心“公益”页面查看并完成捐赠。 （3）爱心仅当天有效。当天获取的爱心如不进行捐赠，次日零点清零。</p>
+                <p id="hd"><strong>勋章获得规则？</strong>
+                                                每个ID第1次、第10次（连续20天内累计）、第25次（连续40天内累计）、第55次捐赠爱心（连续60天内累计）后，会获得不同级别的勋章。 勋章在个人中心勋章墙领取。
+                                                未领取的勋章活动结束后勋章墙将不再展现，不可再领取。</p>
+                  <p id="zb">
+                  	<strong></strong>
+                    1.深圳市爱佑未来慈善基金会：是在深圳市民政局注册成立的公募基金会，专注于两大公益领域：对处于困境儿童的全方位救助；支持公益慈善领域社会组织的发展。
+                    2.上海彤程公益基金会：是由彤程集团于2015年11月发起,旨在关注发展中的中国社会问题、资助优秀公益项目、关注弱势群体、促进社会平等和谐；沿承集团17年来的公益足迹，构建以“教育助学、医疗援助、科技发展创新”为主体的慈善公益体系。
+                  </p>
+                 </li>
+        </ul>
+        <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+        <div class="footer">
+	<p>
+		<a href="#">腾讯公司</a>|
+		<a href="#">版权所有</a>|
+		<a href="#">市场合作</a>|
+		<a href="#">关于管家</a>
+	</p>
+	<p class="copyright">Copyright © 1998 - 2016 Tencent. All Rights Reserved.</p>
+</div>
+        <script type="text/javascript">
+        var ol = document.getElementsByTagName("ol")[0];
+        var olLis =  ol.children;
+        var ul = document.getElementsByTagName("ul")[0];
+        var ulLis = ul.children;
+        var leader = 0;
+        var timer =null;
+        var target = 0;
+         for(var i=0;i<olLis.length;i++){
+            olLis[i].index =i;
+            olLis[i].onclick=function(){
+            	 for(var j=0;j<olLis.length;j++){
+                  olLis[j].className = "";
+              }
+                 olLis[this.index].className = "current";
+                target = ulLis[0].offsetHeight*this.index;
+                timer = setInterval(function(){
+                    var speed = (target - leader)/10;
+                    speed = speed>0?Math.ceil(speed):Math.floor(speed);
+                    leader = leader+speed;
+                    window.scrollTo(0,leader);
+                    if(target==leader){
+                        clearInterval(timer);
+                    }
+                }, 10)
+            }
+        }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,311 @@
+html{
+	width: 100%;
+}
+body{
+	min-width: 950px;
+	width: 100%;
+}
+#mask{
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+#mask_show{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.3);
+	filter:alpha(opacity=30)\9; 
+	background: rgb(0,0,0)\9;
+}
+.ix_login{
+	position: absolute;
+	width: 550px;
+	height: 350px;
+	background: #fff;
+	left: 50%;
+	top: 50%;
+	top: 25%\9;
+	left: 30%\9;
+	transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	text-align: center;
+	line-height: 30px;
+}
+.ix_login h2{
+	margin-top: 50px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	color: #333333;
+}
+.ix_login p{
+	color: #444;
+}
+.ix_login a{
+	text-decoration: none;
+	color: #0C76FF;
+}
+.ix_login span{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-size: cover ;
+}
+
+.ix_login .mask_close{
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	cursor: pointer;
+	color: #565656;
+	text-align: center;
+	line-height: 20px;
+	font-size: 20px;
+}
+.ix_login .longin_bot{
+	display: flex;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	
+}
+.ix_login .longin_bot span{
+	height: 30px;
+	border-right:1px solid #ccc ;
+	color: #333;
+	font-size: 13px;
+	cursor: pointer;
+}
+.ix_login .longin_bot span:hover{
+	text-decoration: underline;
+}
+.ix_erwei{
+	border: 1px solid #ccc;
+	background:url(../img/郑锦伟/zhuanti/erweima.jpg) no-repeat;
+	
+}
+.ix_toux{
+	position: relative;
+	box-shadow: 0 0 5px 1px #0C76FF;
+	background:url(../img/郑锦伟/zhuanti/touxiang.jpg) no-repeat;
+}
+.ix_toux p{
+	position: absolute;
+	bottom: -25px;
+	left: 20%;
+	
+}
+
+#ix_header{
+	display: flex;
+	width: 100%;
+	border-bottom: 1px solid silver;
+}
+#ix_header_content{
+	position: relative;
+	width: 85%;
+	margin: 0 auto;
+}
+#ix_header_content .ix_head_left{
+	float: left;
+	margin-left: 3%;
+	display: flex;
+}
+#ix_header_content>img{
+	float: left;
+	margin-top: 20px;
+}
+.ix_head_left>li{
+	position: relative;
+	float: left;
+}
+.ix_head_left>li:hover>a{
+	color: rgb(0,178,255);
+}
+.ix_head_left>li:hover>a>span{
+	transform: rotate(180deg);
+	border-top: 5px solid  rgb(0,178,255);
+}
+.ix_head_left>li>a span{/*箭头样式*/
+	display: inline-block;
+	border-bottom: 5px solid transparent;
+	border-top: 5px solid  #444;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	transition: all .5s;
+}
+.ix_head_left>li>a{
+	display: inline-block;
+	width: 100px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	text-decoration: none;
+	color: #333;
+	border-left: 1px solid #eee;
+	border-top:3px solid  transparent;
+	
+}
+.ix_head_left>li>ul{
+	position: absolute;
+	z-index: 100;
+	background: #fff;
+	overflow: hidden;
+	height: 0;
+}
+.ix_head_left>li>ul>li a{
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	font-size: 13px;
+	text-align: center;
+	text-decoration: none;
+	color: #333;
+}
+.ix_head_right{
+	display: flex;
+	position: absolute;
+	right: -50px;
+	float: right;
+	margin-top: 15px;
+}
+.ix_head_right .banben{
+	display: inline-block;
+	margin-left: 20px;
+	width: 40px;
+	height: 42px;
+	background: url(../img/郑锦伟/zhuanti/banben.png) #0C76FF -4px -3px;
+	-ms-background-position-x: -4px;
+	-o-background-position-x: -4px;
+	-webkit-background-position-x: -4px;
+	-moz-background-position-x: -4px;
+	-ms-background-position-y: -3px;
+
+}
+#banben1{
+	background-position:-54px -3px;
+	-ms-background-position-x: -54px;
+}
+#banben2{
+	background-position:-98px -3px;
+	-ms-background-position-x: -98px;
+}
+#ix_denglu{
+	width: 39px;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	margin-left: 40px;
+	color: cornflowerblue;
+	cursor: pointer;
+}
+#ix_denglu:hover{
+	text-decoration: underline;
+}
+/*头部结束*/
+.big-box{
+	width: 100%;
+	height: 100%;
+}
+.w{
+	width: 1000px;
+	margin: 0 auto;
+	
+}
+.top-nav{
+	line-height: 80px;
+	border-bottom: 1px solid silver;
+	height: 50px;
+}
+.top-nav li {
+	margin-right: 30px;
+	display: inline-block;
+}
+.top-nav li a{
+	display: block;
+	color: #000000;
+	font: 14px "微软雅黑";
+}
+.current{
+	border-bottom: 4px solid #0C76FF;
+	font-weight: bold;
+}
+.top-nav li a:hover{
+	font-weight: bold;
+}
+.picbox{
+	margin:30px 0 ;
+	width: 1000px;
+	height: 150px;
+	border: 1px solid #DCDCDC;
+}
+.pic-right{
+	width: 350px;
+	float: right;
+}
+.pic-right a{
+	display: block;
+	margin: 10px 0;
+	font:bold 16px "微软雅黑";
+	color: #0C76FF;
+}
+.pic-right p{
+	font: 14px "微软雅黑";
+}
+.btn{
+	margin: 20px 0;
+	border-radius: 5px;
+	display: block;
+	cursor: pointer;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	font: 16px/30px "微软雅黑";
+	color: white;
+	background-color: forestgreen;
+}
+.btn:hover{
+	background-color: green;
+}
+.go-top{
+	display:none;
+	position:fixed;
+	right:15px;
+	bottom: 150px;
+	cursor: pointer;
+}
+.weibo a{
+	height: 24px;
+	padding-left: 30px;
+	background: url(../img/郑锦伟/zhuanti/weibo.jpg) no-repeat left;
+	margin-top: 30px;
+	display: inline-block;
+	font: 14px "微软雅黑";
+	color: black;
+}
+.weibo a:nth-child(2){
+	background: url(../img/郑锦伟/zhuanti/sina.jpg) no-repeat left;
+}
+.weibo  a:hover{
+	color: #00BFFF;
+	text-decoration: underline;
+}
+.foot{
+	margin-top: 30px;
+	text-align: center;
+}
+.foot a{
+	padding:0 5px ;
+	color: #000;
+}
+.foot p{
+	font: 14px "微软雅黑";
+	color: #C0C0C0;
+}

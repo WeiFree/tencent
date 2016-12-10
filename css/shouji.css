@@ -1,0 +1,504 @@
+.w {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.banner {
+	height: 100%;
+	background: #2371f3;
+	position: relative;
+	min-height: 850px;
+	max-height: 1016px;
+}
+
+.header {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 2;
+	background: none;
+}
+
+.header-line {
+	position: absolute;
+	bottom: 0;
+	height: 1px;
+	overflow: hidden;
+	background: #fff;
+	opacity: 0.1;
+	filter: alpha(opacity=10)\9;
+	width: 100%;
+}
+
+.nav-box {
+	max-width: 70%;
+	min-width: 1130px;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 16px;
+	height: 105px;
+}
+
+.logo {
+	background: url(../img/郑锦伟/shouji/logo.png) no-repeat left;
+	width: 200px;
+	height: 105px;
+	float: left;
+}
+
+.nav {
+	float: right;
+}
+
+.nav a {
+	color: #fff;
+	display: inline-block;
+	height: 105px;
+	line-height: 105px;
+	margin-left: 40px;
+}
+
+.pcgj {
+	background: url(../img/郑锦伟/shouji/pcicon.png) no-repeat 0 45px;
+	padding-left: 20px;
+	margin-right: 10px;
+}
+
+.lunbo-box {
+	overflow: hidden;
+}
+
+#lunbo {
+	/*overflow: hidden;*/
+	width: 1027px;
+	position: relative;
+	margin: 0 auto;
+	height: 604px;
+}
+
+#btn {
+	display: block;
+	width: 214px;
+	height: 64px;
+	border-radius: 5px;
+	background: #1ac572;
+	color: #fff;
+	position: absolute;
+	right: 110px;
+	top: 63%;
+	font-size: 30px;
+	text-align: center;
+	line-height: 64px;
+	z-index: 1;
+}
+
+.code {
+	width: 64px;
+	height: 64px;
+	position: absolute;
+	top: 63%;
+	right: 340px;
+	background: url(../img/郑锦伟/shouji/bewm.png);
+	z-index: 1;
+}
+
+#btnwx {
+	cursor: pointer;
+	display: inline-block;
+	width: 140px;
+	height: 36px;
+	background-image: url(../img/郑锦伟/shouji/gzwm.png);
+	position: absolute;
+	left: 50px;
+	top: 90%;
+	z-index: 2;
+}
+
+#bwxewm {
+	width: 140px;
+	height: 161px;
+	position: absolute;
+	top: 90%;
+	left: 50px;
+	background: url(../img/郑锦伟/shouji/blueerweima.png);
+	margin: -140px 0px 0px 0px;
+	z-index: 1;
+	display: none;
+}
+
+.lunbo img {
+	position: absolute;
+}
+
+#lunbo .switchpic {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0)\9;
+	left: -300px;
+}
+
+#lunbo .switchtxt {
+	position: absolute;
+	right: -300px;
+	opacity: 0;
+	filter: alpha(opacity=0)\9;
+}
+
+.switchpic1 {
+	height: 84%;
+	top: 13%;
+	/*left: -10%;*/
+}
+
+.switchtxt1 {
+	height: 30%;
+	top: 30%;
+	/*right: -10%;*/
+}
+
+.switchpic2 {
+	height: 100%;
+	/*left: -50%;*/
+}
+
+.switchpic3 {
+	height: 100%;
+	/*left: -50%;*/
+}
+
+.switchtxt2 {
+	height: 28%;
+	top: 32%;
+	/*right: -10%;*/
+}
+
+.switchtxt3 {
+	height: 27%;
+	top: 34%;
+}
+
+.switchpic4 {
+	height: 77%;
+	top: 18%;
+	/*left: -10%;*/
+}
+
+.switchtxt4 {
+	height: 25%;
+	top: 34%;
+}
+#squret{
+    position: absolute;
+    width: 100%;
+    bottom: 38px;
+    text-align: center;
+}
+#squret span {
+	color: transparent;
+	width: 20px;
+	height: 10px;
+	display: inline-block;
+	background: #fff;
+	opacity: 0.25;
+	margin: 0 7px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#squret .cur {
+	background: #fff;
+	width: 40px;
+	opacity: 0.5;
+}
+
+.power {
+	text-align: center;
+	background: #fff;
+	height: 295px;
+	position: absolute;
+	bottom: -49px;
+	width: 100%;
+}
+
+.power li {
+	height: 295px;
+	width: 23%;
+	font-size: 30px;
+	color: #4d5058;
+	vertical-align: top;
+	display: inline-block;
+	*zoom: 1;
+	display: *inline;
+}
+
+.power p {
+	font-size: 14px;
+	color: #888d9b;
+	line-height: 24px;
+	width: 204px;
+	margin: 20px auto 0 auto;
+}
+
+.power li span {
+	width: 80px;
+	height: 80px;
+	display: block;
+	margin: 0 auto;
+	background-image: url(../img/郑锦伟/shouji/index.png);
+	margin-top: 80px;
+	margin-bottom: 28px;
+}
+
+.power1 {
+	background-position: -27px -19px;
+}
+
+.power2 {
+	background-position: -301px -19px;
+}
+
+.power3 {
+	background-position: -576px -19px;
+}
+
+.power4 {
+	background-position: -845px -19px;
+}
+
+.wrapper {
+	max-width: 1027px;
+	min-width: 1003px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#wrapper {
+	max-width: 1027px;
+	min-width: 1003px;
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 160px;
+	position: relative;
+	overflow: hidden;
+}
+
+#wrapper div {
+	height: 300px;
+	margin-bottom: 100px;
+}
+
+.pic {
+	background: url(../img/郑锦伟/shouji/index.png);
+	position: absolute;
+	width: 356px;
+	height: 382px;
+	opacity: 0;
+	filter: alpha(opacity=0)\9;
+}
+
+#page1 .pic {
+	background-position: 0 -138px;
+	left: -356px;
+}
+
+#page2 .pic {
+	background-position: -582px -138px;
+	right: 0;
+	right: -356px;
+}
+
+#page3 .pic {
+	background-position: 0px -566px;
+	left: -356px;
+}
+
+#page4 .pic {
+	background-position: -582px -575px;
+	right: 0;
+	right: -356px;
+}
+
+#page5 .pic {
+	background-position: 0 -1047px;
+	left: -356px;
+}
+
+#page6 .pic {
+	background-position: -582px -1047px;
+	right: 0;
+	right: -356px;
+}
+
+.txt {
+	color: #4d5058;
+	font-size: 30px;
+	position: absolute;
+	width: 533px;
+	margin-top: 90px;
+	opacity: 0;
+	filter: alpha(opacity=0)\9;
+}
+
+.txt span {
+	font-size: 18px;
+	color: #4d5058;
+	display: block;
+	line-height: 24px;
+	margin-top: 20px;
+}
+
+#page1 {
+	border-top: 1px solid #eee;
+	padding-top: 100px;
+}
+
+#page1 .txt {
+	right: -533px;
+}
+
+#page3 .txt {
+	right: -533px;
+}
+
+#page5 .txt {
+	right: -533px;
+}
+
+#page2 .txt {
+	left: -533px;
+}
+
+#page4 .txt {
+	left: -533px;
+}
+
+#page6 .txt {
+	left: -533px;
+}
+
+#server {
+	text-align: center;
+	border-top: 1px solid #eee;
+	position: relative;
+	padding-top: 90px;
+	max-width: 1027px;
+	min-width: 1003px;
+	margin: 100px auto 0 auto;
+}
+
+#server h2,
+.authen h2 {
+	position: absolute;
+	left: 50%;
+	width: 180px;
+	margin-left: -90px;
+	top: -16px;
+	background: #fff;
+}
+
+#server li {
+	width: 23%;
+	display: inline-block;
+	font-size: 18px;
+	color: #4d4d4d;
+	*zoom: 1;
+	*display: inline;
+}
+
+.authen {
+	text-align: center;
+	padding-bottom: 98px;
+	padding-top: 100px;
+	border-top: 1px solid #eee;
+	position: relative;
+	max-width: 1027px;
+	min-width: 1003px;
+	width: 100%;
+	margin: 100px auto 0 auto;
+}
+
+.authen a {
+	display: inline-block;
+	margin-right: 60px;
+}
+
+#server p {
+	font-size: 14px;
+	color: #888;
+	margin-top: 7px;
+}
+
+#server a {
+	color: #2371f3;
+	font-size: 14px;
+}
+
+h2 {
+	color: #4d4d4d;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+#server span {
+	width: 80px;
+	height: 80px;
+	display: block;
+	margin: 0 auto 28px auto;
+	background-image: url(../img/郑锦伟/shouji/index.png);
+}
+
+.server1 {
+	background-position: -12px -1534px;
+}
+
+.server2 {
+	background-position: -284px -1534px;
+}
+
+.server3 {
+	background-position: -557px -1534px;
+}
+
+.server4 {
+	background-position: -829px -1534px;
+}
+
+.info {
+	text-align: center;
+	font-size: 24px;
+	color: #4d4d4d;
+	padding-top: 30px;
+	background: #f8f8f8;
+	padding-bottom: 53px;
+}
+
+.info li {
+	display: inline-block;
+	width: 23%;
+	vertical-align: top;
+	line-height: 50px;
+	*zoom: 1;
+	*display: inline;
+}
+
+.info a {
+	font-size: 14px;
+	display: block;
+	line-height: 24px;
+	color: #4d4d4d;
+}
+
+.footer {
+	font:12px "微软雅黑";
+	line-height: 30px;
+	text-align: center;
+	background: #2371f3;
+	color: #fff;
+	padding: 45px 0;
+}
+.footer a {
+	font:12px "微软雅黑";
+    color: #fff;
+    margin: 0 5px;
+}

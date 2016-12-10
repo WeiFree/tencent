@@ -1,0 +1,337 @@
+body{
+	font-family: Microsoft YaHei;
+}
+.back-img{
+	position: relative;
+	top: 60px;
+	margin-bottom: 60px;
+	width: 100%;
+	min-width: 1200px;
+	height: 540px;
+	background: url(../../img/wujianhua/bg1-338a435587.jpg);
+	background-position:top center ;
+}
+.back-img2{
+	position: relative;
+	width: 100%;
+	min-width: 1200px;
+	height:859px;
+	background: url(../../img/wujianhua/bg2-42e4002839.jpg);
+	background-position:top center ;
+}
+.back-img3{
+	position: relative;
+	width: 100%;
+	min-width: 1200px;
+	height:1600px;
+	background: url(../../img/wujianhua/bg3-c2137a75c9.jpg);
+	background-position:top center ;
+}
+.big{
+	width: 100%;
+	min-width: 1200px;
+	height: auto;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.big a{
+	display: inline-block;
+	color: #FFFFFF;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+.big a:link{
+	text-decoration: none;
+}
+.big a:visited{
+	text-decoration: none;
+}
+.big a:hover{
+	text-decoration: none;
+}
+.big a:active{
+	text-decoration: none;
+}
+.conten{
+	position: relative;
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+}
+.btn{
+	position: absolute;
+	top: 500px;
+	left: 50%;
+	margin-left: -252px;
+}
+.btn01{
+	line-height: 58px;
+	width: 200px;
+	height: 58px;
+	background: url(../../img/wujianhua/btns-0544b4a707.png);
+	margin-right: 100px;
+}
+.btn01:hover{
+	background-position: -210px 0;
+}
+.btn02{
+	line-height: 58px;
+	width: 200px;
+	height: 58px;
+	background: url(../../img/wujianhua/btns-0544b4a707.png);
+	background-position: 0px -70px;
+}.btn02:hover{
+	background-position: -210px -70px;
+}
+.ul-btn{
+	position: absolute;
+	top: 800px;
+	left: 120px;
+	width: 500px;
+	}
+.ul-btn li{
+	padding-left: 270px;
+	position: relative;
+	display: block;
+	height: 132px;
+	margin-bottom: 85px;
+	}
+	.ul-btn01{
+		background: url(../../img/wujianhua/img1-7194af9a60.jpg) no-repeat left;
+	}
+	.ul-btn02{
+		background: url(../../img/wujianhua/img2-6f31cdc673.jpg) no-repeat left;
+	}
+	.ul-btn03{
+		background: url(../../img/wujianhua/img3-f9cc4ad0e5.jpg) no-repeat left;
+	}
+	.ul-btn04{
+		background: url(../../img/wujianhua/img4-2212677137.jpg) no-repeat left;
+	}
+	.ul-btn05{
+		background: url(../../img/wujianhua/img5-b25725d8cd.jpg) no-repeat left;
+	}
+	.ul-btn h3{
+		font-size: 20px;
+		font-weight: bold;
+		color: #783400;
+	}
+	.ul-btn p{
+		line-height: 40px;
+		color: #944114;
+	}
+	.ul-btn i{
+		color: #DF3E39;
+		font-weight: bold;
+		font-style: initial;
+	}
+	.ul-btn a{
+		margin-top: 16px;
+		margin-left: 20px;
+		background: url(../../img/wujianhua/btns-0544b4a707.png);
+		background-position: 0 -260px;
+		width: 170px;
+		height: 47px;
+		line-height: 47px;
+		font-size: 22px;
+	}
+	.ul-btn a:hover{
+		background-position: -210px -260px;
+	}
+	.contan-big{
+		position: relative;
+		width: 1200px;
+		height: auto;
+		margin: 0 auto;
+	}
+	.contan{
+		position: absolute;
+		top: 650px;
+		left: 655px;
+		width: 445px;
+		height: 1185px;
+	}
+	.contan1-head{
+		padding-left: 130px;
+		background: url(../../img/wujianhua/avartor-b554448a42.jpg)no-repeat left;
+		height: 110px;
+		margin-left: 30px;
+		color: #B97D13;
+		font-size: 14px;
+		margin-bottom: 25px;
+	}
+	.contan1-head a{
+		color: #B97D13;
+		font-size: 14px;
+		font-weight: normal;
+	}
+	.contan1-head a:hover{
+		font-style: italic;
+	}
+	.contan1-button li{
+		float: left;
+		height: 65px;
+		width: 148px;
+		text-align: center;
+		line-height: 35px;
+		font-size: 22px;
+		font-weight: bold;
+		color: #E4333C;
+	}
+	.contan1-button li label{
+		
+		font-size: 16px;
+		color: #000000;
+		font-weight: normal;
+	}
+	.contan1-button li label a{
+		position: relative;
+		top: 5px;
+		display: inline-block;
+		width: 20px;
+		height: 20px;
+		margin-right: 5px;
+		background: url(../../img/wujianhua/btns-0544b4a707.png);
+	}
+	.contan1-button-a1{
+		background-position: 0 -441px !important;
+	}
+	.contan1-button-a2{
+		background-position: -30px -441px !important;
+	}
+	.contan1-button-a3{
+		background-position: -62px -441px !important;
+	}
+	.contan2{
+		width: 100%;
+		height: auto;
+	}
+	.contan2 ul{
+		float: right;
+		margin-right: 25px;
+	}
+	.contan2 ul li{
+		width: 200px;
+		margin-right: 0px;
+		margin-top:70px ;
+	}
+	.contan2 a{
+		
+		display: block;
+		width: 180px;
+		height: 52px;
+		line-height: 52px;
+		margin-bottom: 10px;
+	}
+	.qiang{
+		background: url(../../img/wujianhua/btns-0544b4a707.png);
+		background-position: 0 -140px;
+	}
+	.qiang:hover{
+		background-position: 200px -140px;
+	}
+	.tixing{
+		background: url(../../img/wujianhua/remind_button-73d061be9c.png);
+	}
+	.contan3{
+		position: absolute;
+		left: 22px;
+		top: 880px;
+		width: 400px;
+		height: 280px;
+		display: block;
+		background: url(../../img/wujianhua/pic1-d1ef58d574.jpg);
+	}
+	.big-tequan{
+		position: relative;
+		width: 1200px;
+		height: auto;
+		margin: 0 auto;
+	}
+	.big-tequan ul{
+		position: absolute;
+		top: 2160px;
+		margin: 0 auto;
+		padding-left: 100px;
+	}
+	.big-tequan ul li{
+		float: left;
+		width: 333px;
+		height: 145px;
+		text-align: center;
+		margin-right: 7px;
+		color: #C18463;
+	}
+	.big-tequan ul li a{
+		margin-top: 10px;
+		line-height: 52px;
+		display: inline-block;
+		width: 180px;
+		height: 52px;
+		background: url(../../img/wujianhua/btns-0544b4a707.png);
+		background-position: 0 -200px;
+		
+	}
+	.big-tequan ul li h3{
+		font-size: 22px;
+		font-weight:bold ;
+	}
+	.big-tequan ul li a:hover{
+		background-position:200px -200px;
+	}
+	.shengming{
+		position: absolute;
+		top: 2400px;
+		width: 980px;
+		left: 50%;
+		margin-left: -490px;
+	}
+	.shengming h2{
+		font-size: 24px;
+		color: #FFFFFF;
+		line-height: 40px;
+		margin-bottom: 15px;
+	}
+	.shengming p{
+		font-size: 18px;
+		line-height: 30px;
+		padding-left:30px ;
+		text-indent: -25px;
+		color: #FFFFFF;
+	}
+	center{
+		width: 1200px;
+		position: absolute;
+		top: 2950px;
+		color: #FFFFFF;
+		font-size:12px ;
+	}
+	center a{
+		font-size:12px !important;
+		font-weight: normal !important;
+	}
+	#floot{
+		position: fixed;
+		width: 100%;
+		bottom: 0;
+		height: 50px;
+		background: #BC1526;
+		float: left;
+	}
+	#floot .box{
+		width: 1200px;
+		margin: 0 auto;
+	}
+	#floot .box a{
+		float: right;
+		width: 214px;
+		height: 56px;
+		display: block;
+		background: url(../../img/wujianhua/dl-dc7ae7e18e.jpg);
+	    background-position: 0 -2px;
+	}
+	#floot .box a:hover{
+	background-position: 0 -72px;
+	}

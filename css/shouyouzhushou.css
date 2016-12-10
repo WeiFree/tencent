@@ -1,0 +1,47 @@
+.*{
+	padding:0px;
+	margin:0px;
+}
+.ss_main{
+	width:100%; 
+}
+.top{
+	width:1000px;
+	height:310px;
+	background:url("../img/dengjijiasu/bg_19.jpg") no-repeat center 0px,url("../img/dengjijiasu/bg_20.jpg") no-repeat center 0px;
+	margin:0px auto;
+	background-size:contain;
+	position:relative;
+}
+.tone{
+	width:243px;
+	float: right;
+	position:absolute;
+	bottom:40px;
+	right:10px;
+	text-align:right;
+}
+.tone img{
+	width:90%;
+}
+.tone p{
+	text-align:right;
+	color:#fff;
+	font-size:12px;
+}
+.square{
+	position:absolute;
+	bottom:10px;
+	left:50%;
+	transform:translateX(-50%);
+	-ms-transform:translateX(-50%);
+	-moz-transform:translateX(-50%);
+	-webkit-transform:translateX(-50%);
+	-o-transform:translateX(-50%);
+}
+.square span{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	border:
+}

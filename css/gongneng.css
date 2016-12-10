@@ -1,0 +1,437 @@
+
+#gn_con1{
+	position: relative;
+}
+#gn_slider{
+	position: relative;
+	z-index: 1;
+	width: 1600px;
+	height: 900px;
+}
+#gn_slider ul li{
+	position: absolute;
+	z-index: 10;
+}
+#gn_slider ul li img{
+	width: 100%;
+	height: 100%;
+	
+}
+.ctrl_btn{
+	position: absolute;
+	z-index: 100;
+	bottom: 160px;
+	left: 680px;
+}
+.ctrl_btn span{
+	display: inline-block;
+	margin-left: 20px;
+	width: 30px;
+	height: 10px;
+	background: rgba(0,0,0,.5);
+	background: #000000 \9;
+	filter: alpha(opacity=50);
+	cursor: pointer;
+	border-radius: 5px;
+}
+.curr{
+	background: #145997 !important;
+	
+}
+.con1_up{
+	position: absolute;
+	width: 1600px;
+	height: 900px;
+	margin: 0 auto;
+	top:-120px;
+}
+
+ .con1_up *{
+ 	position: absolute;
+ 	z-index: 10;
+ }
+ .con1_up img{
+ 	top: 150px;
+ 	left: 200px;
+ }
+.tv_jiesao{
+	top:370px;
+	left: 800px;
+	transform: translateX(-50%);
+	color: white;
+	font-family: "微软雅黑";
+	cursor: pointer;
+}
+.tv_jiesao:hover{
+	text-decoration: underline;
+}
+.con1_download{
+	width: 235px;
+	height: 68px;
+	bottom:80px ;
+	margin-left: 650px;
+	cursor: pointer;
+	background: url(../img/index/xiazaipng.png) -4px -154px;
+}
+
+#mask{
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+#mask_show{
+	position: absolute;
+	z-index: 100;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.3);
+	filter:alpha(opacity=30)\9; 
+	background: rgb(0,0,0)\9;
+}
+
+video{
+	position: absolute;
+	z-index: 101;
+	width: 550px;
+	height: 350px;
+	left: 50%;
+	top: 50%;
+	top: 25%\9;
+	left: 30%\9;
+	transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	text-align: center;
+	line-height: 30px;
+}
+.mask_close{
+	position: absolute;
+	right: 150px;
+	top: 100px;
+	z-index: 10001;
+	display: inline-block;
+	height: 60px;
+	width: 60px;
+	cursor: pointer;
+	color: #ccc;
+	text-align: center;
+	line-height: 60px;
+	font-size: 60px;
+	transition: .5s;
+	transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	
+}
+.mask_close:hover{
+	transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+}
+.xiangxia{
+	bottom: 20px;
+	left: 690px;
+	color: #ccc;
+}
+.xiangxia span{
+	transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	
+}
+.xiangxia p{
+	width: 500px;
+	margin-left: 20px;
+}
+
+
+
+.gn_show{
+	width: 100%;
+	height: 100%;
+}
+.show_con{
+	position: relative;
+	width: 1300px;
+	height: 600px;
+	margin: 0 auto;
+}
+.show_con img{
+position: absolute;
+}
+.show_con img:nth-child(1){
+	top: 200px;
+}
+
+/*动画总控制*/
+.show_con img:nth-child(2){
+	top: 140px;
+	z-index: 1;
+	opacity: 0;
+	filter:alpha(opacity=0);
+	/*left: 400px;*/
+	left: 200px;
+}
+.show_con img:nth-child(3){
+	left: 800px;
+	opacity: 0;
+	filter:alpha(opacity=0);
+	/*left: 500px;*/
+}
+/*总控制*/
+
+#show2_con img:nth-child(1){
+	right: 150px;
+}
+#show2_con img:nth-child(2){
+	/*left: 100px;*/
+	left: 0px;
+}
+#show2_con img:nth-child(3){
+	top: 180px;
+	z-index: 1;
+	/*left: 550px;*/
+	left: 750px;
+}
+#gn_show2 .show_con>span{
+	display: inline-block;
+	opacity: 0;
+	filter:alpha(opacity=0);
+	z-index: 2;
+	width: 44px;
+	height: 44px;
+	position: absolute;
+	background:url(../img/gongneng/tubiao.png);
+	
+	
+}
+#gn_show2 #show2_con>span:nth-of-type(1){
+	left: 375px;
+	top: 329px;
+	background-position: -240px -121px;
+}
+#gn_show2 #show2_con>span:nth-of-type(2){
+	left: 520px;
+	top: 329px;
+	background-position:-181px -121px;
+}
+#gn_show2 #show2_con>span:nth-of-type(3){
+	left: 200px;
+	top: 450px;
+	background-position:-2px -121px;
+}
+#gn_show2 #show2_con>span:nth-of-type(4){
+	left: 260px;
+	top: 450px;
+	background-position:-62px -121px;
+}
+#gn_show2 #show2_con>span:nth-of-type(5){
+	left: 320px;
+	top: 450px;
+	background-position:-122px -121px;
+}
+.tubiao1{
+	position: absolute;
+	right: 0px;
+	top: 400px;
+	
+}
+.tubiao1 span{
+	display: inline-block;
+	margin-left: 15px;
+	font-size: 15px;
+	font-family: "微软雅黑";
+	z-index: 2;
+	width: 53px;
+	height: 53px;
+	cursor: pointer;
+	background:url(../img/gongneng/tubiao.png);
+}
+.tubiao1 span p{
+	position: absolute;
+	bottom: -20px;
+	color: #aaa;
+	margin-left: -10px;
+}
+.tubiao1 span:nth-child(1){
+	background-position:-2px -2px;
+}
+.tubiao1 span:nth-child(2){
+	background-position:-62px -2px;
+}
+.tubiao1 span:nth-child(3){
+	background-position:-122px -2px;
+}
+.tubiao1 span:nth-child(4){
+	background-position:-182px -2px;
+}
+.tubiao1 span:nth-child(5){
+	background-position:-242px -2px;
+}
+#show3_con img:nth-child(2){
+	left: 200px;
+	/*left: 400px;*/
+	top: 170px;
+}
+#show3_con img:nth-child(3){
+	z-index: 2;
+	/*left: 900px;*/
+	left: 1030px;
+	top: 200px;
+}
+#show3_con div:nth-child(4){
+	position: absolute;
+	width: 611px;
+	height: 234px;
+	z-index: 1;
+	opacity: 0;
+	filter:alpha(opacity=0);
+	/*left: 445px;*/
+	left: 245px;
+	top: 310px;
+	overflow: hidden;
+}
+#show3_con div:nth-child(4) .imgc{
+	position: absolute;
+	width: 611px;
+	height: 346px;
+	background: url(../img/gongneng/qingli2.png) no-repeat;
+	top: 0px;
+}
+#tubiao2{
+	left: 0;
+}
+#show3_con div:nth-child(4) span{
+	position: absolute;
+	z-index: 3;
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background: url(../img/gongneng/tubiao2.png);
+}
+#show3_con div:nth-child(4) span:nth-child(1){
+	background-position: 0 -120px;
+	top:22px;
+	left: 35px;
+}
+#show3_con div:nth-child(4) span:nth-child(2){
+	background-position: -59px -121px;
+	top:173px;
+	left: 35px;
+}
+#show3_con div:nth-child(4) span:nth-child(3){
+	background-position: -119px -120px;
+	top:220px;
+	left: 35px;
+}
+#show3_con div:nth-child(4) span:nth-child(4){
+	background-position: -180px -120px;
+	top:265px;
+	left: 35px;
+}
+#tubiao2 span{
+	display: inline-block;
+	width: 55px;
+	height: 55px;
+	background: url(../img/gongneng/tubiao2.png);
+}
+#tubiao2 span:nth-child(1){
+	background-position: -2px -62px;
+}
+#tubiao2 span:nth-child(2){
+	background-position: -62px -62px;
+}
+#tubiao2 span:nth-child(3){
+	background-position: -122px -62px;
+}
+#tubiao2 span:nth-child(4){
+	background-position: -182px -62px;
+}
+
+/*动画4开始*/
+#show4_con img:nth-child(1){
+	right: 150px;
+	top: 223px;
+}
+#show4_con img:nth-child(2){
+	/*left: 51px;*/
+	left: 0;
+	top: 102px;
+}
+#show4_con img:nth-child(3){
+	/*left: 533px;*/
+	left: 646px;
+	top: 142px;
+	z-index: 2;
+}
+#show4_con img:nth-child(4){
+	left: 95px;
+	/*top: 56px;*/
+	top: 138px;
+	opacity: 0;
+	filter:alpha(opacity=50);
+	z-index: 3;
+}
+#tubiao3{
+	width: 500px;
+	right: -20px;
+}
+#tubiao3 span{
+	width: 27px;
+	height: 27px;
+	margin-left: 40px;
+	background: url(../img/gongneng/tubiao3.png);
+}
+#tubiao3 span p{
+	margin-left: -20px;
+}
+#tubiao3 span:nth-child(1){
+	background-position: -20px -15px;
+}
+#tubiao3 span:nth-child(2){
+	background-position: -78px -15px;
+}
+#tubiao3 span:nth-child(3){
+	background-position: -140px -15px;
+}
+#tubiao3 span:nth-child(4){
+	background-position: -199px -15px;
+}
+#tubiao3 span:nth-child(5){
+	background-position: -257px -15px;
+}
+
+/*脚部开始*/
+#footer{
+	position: relative;
+	background: url(../img/gongneng/jiewei.jpg) no-repeat center;
+	background-size: cover;
+	width: 100%;
+	height: 523px;
+}
+#gn_mowei{
+	position: absolute;
+	width: 500px;
+	margin: 0 auto;
+	bottom: 20px;
+	left: 37%;
+}
+#gn_mowei ul li{
+	float: left;
+}
+#gn_mowei ul{
+	margin-left: 60px;
+}
+#gn_mowei ul li a{
+	text-decoration: none;
+	color: #ccc;
+}
+#gn_mowei p{
+	color: #ccc;
+}

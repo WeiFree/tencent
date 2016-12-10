@@ -1,0 +1,113 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+.ri_main{
+	width:100%;
+	position:relative;
+}
+.bgone{
+	width:100%;
+	height:400px;
+	background:url("../img/dengjijiasu/bg_09.jpg") no-repeat center 0px;
+}
+.bgtwo{
+	width:100%;
+	height:1359px;
+	background:url("../img/dengjijiasu/bg_10.jpg") no-repeat center 0px;
+}
+
+.box{
+	position:absolute;
+	width:100%;
+	height:1759px;
+	top:0px;
+	left:0px;
+}
+.ri_mone{
+	width:347px;
+	margin: 450px auto 0px auto;
+}
+.ri_mone img:hover{
+	opacity:0.9;
+	cursor:pointer;
+}
+
+.ri_mtwo{
+	width:980px;
+	height:690px;
+	margin:180px auto 0px auto;
+	position:relative;
+}
+.ri_mtwo ul{
+	width:100%;
+	position:absolute;
+}
+.ri_mtwo ul li{
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+.ri_mtwo .square{
+	position:absolute;
+	bottom:0px;
+	left:50%;
+	transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	z-index:2;
+}
+.ri_mtwo .square span{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	border-radius:20px;
+	background:#fff;
+	margin:5px;
+}
+.color{
+	background:#c2ed0d !important;
+}
+.ri_mthree{
+	position:absolute;
+	top:635px;
+	left:19%;
+}
+.ri_mthree .one{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:90px;
+	height:85px;
+	font-size:50px;
+	color:#025fc1;
+	font-weight: 900;
+	text-align: center;
+	line-height:85px;
+	opacity:0.5;
+}
+.ri_mthree .two{
+	font-size:40px;
+	color:#fff;
+	font-weight: 900;
+	text-align: center;
+	line-height:85px;
+}
+.footer{
+	width:100%;
+	height:50px;
+	background:#0281fc;
+	padding-top:20px;
+}
+.footer p{
+	text-align:center;
+	color:#ccc;
+	font-size:12px;
+	line-height:20px;
+}
+.footer p a{
+	color:#fff;
+	font-size:12px;
+}

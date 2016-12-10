@@ -1,0 +1,226 @@
+html{
+	width: 100%;
+}
+body{
+	width: 100%;
+}
+.big-box{
+	width: 100%;
+	height: 100%;
+}
+.w{
+	width: 1000px;
+	margin: 0 auto;
+	
+}
+.slider{
+	display: inline-block;
+	margin-top: 10px ;
+    width: 675px;
+    height: 225px;
+    position: relative;
+}
+.slider-img{
+	overflow: hidden;
+    width: 675px;
+    height: 225px;
+    position: relative;
+}
+.slider-img ul{
+    list-style: none;
+}
+.slider ul li{
+    position: absolute;
+    top:0;
+    left:0;
+}
+.ctrl-square{
+    position: absolute;
+    bottom:5px;
+    right:5%;
+}
+.ctrl-square span{
+	cursor: pointer;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    line-height:8px;
+    text-align: center;
+    color: transparent;
+    border: 2px solid rgba(255,255,255,0.3);
+    border-radius: 100%;
+    background: gainsboro;
+    margin: 0px 5px;
+}
+.ctrl-square span.current{
+    background: gray;
+}
+.denglu{
+	margin: 10px 0px;
+	float: right;                                                                                                  
+	width: 305px;
+	height: 225px;
+	border: 1px solid silver;
+}
+.denglu input{
+	width: 180px;
+	height: 35px;
+	text-align: center;
+	font: 16px/35px "微软雅黑";
+	margin: 10px 20px;
+	margin-top:20px ;
+}
+.denglu ul li{
+	margin-left:20px ;
+}
+.denglu ul li:nth-child(1){
+	font:bold 13px "微软雅黑" ;
+}
+.denglu li a{
+	font:12px "微软雅黑";
+	text-decoration: none;
+	color: #808080;
+}
+.denglu li a:hover{
+	text-decoration: underline;
+}
+.download{
+	margin: 20px 0px 20px 20px;
+}
+.denglu span{
+	width: 100px;
+	margin-top: 10px ;
+	float: right;
+	vertical-align: top;
+	font:14px "微软雅黑";
+}
+.denglu span a{
+	color: deepskyblue;
+	text-decoration: none;
+}
+.news{
+	clear: both;
+	margin: 20px 20px;
+	margin-right: 0px;
+	margin-top: -5px;
+	margin-bottom: 5px;
+	border: 1px solid silver;
+	float: right;
+	width: 305px;
+}
+.news a{
+	padding-left: 20px;
+	color: orange;
+	font:bold 13px "微软雅黑";
+}
+.middle{
+	margin-bottom: 15px;
+	clear: both;
+	border-top:1px solid dodgerblue;
+	font: 14px "微软雅黑";
+}
+.m-top{
+	margin-top:10px ;
+}
+.title{
+	color: #00BFFF;
+	font: bold 18px "微软雅黑";
+	margin-right: 10px;
+}
+.go a{
+	margin-right: 20px;
+	float: right;
+	color: #808080;
+}
+.go a:hover{
+	color: #00BFFF;
+	text-decoration: underline;
+}
+.go:after{
+	clear: both;
+}
+
+.left{
+	margin-top: 10px;
+}
+.right{
+	width: 715px;
+	float:right;
+}
+.right li{
+	margin-left: 10px;
+	text-align: center;
+	width:345px ;
+	float: left;
+}
+.lithree{
+	margin-top: 28px;
+}
+
+.right  a{
+	color: black;
+}
+.right  a:hover{
+	color: #00BFFF;
+	text-decoration: underline;
+}
+.left a{
+	color: black;
+}
+.left  a:hover{
+	color: #00BFFF;
+	text-decoration: underline;
+}
+.zhuantiad{
+	width: 1000px;
+	float: none;
+}
+.zhuantiad li{
+	margin-left: 10px;
+	text-align: center;
+	width:320px ;
+	float: left;
+}
+.zhuantiad  a{
+	color: black;
+}
+.zhuantiad  a:hover{
+	color: #00BFFF;
+	text-decoration: underline;
+}
+#aone{
+	height: 24px;
+	padding-left: 30px;
+	background: url(../img/郑锦伟/huodongzhongxin/weibo.jpg) no-repeat left;
+	margin-top: 30px;
+	display: inline-block;
+	font: 14px "微软雅黑";
+	color: black;
+}
+#atwo{
+	margin-top: 30px;
+	display: inline-block;
+	font: 14px "微软雅黑";
+	color: black;
+	height: 24px;
+	padding-left: 30px;
+	background: url(../img/郑锦伟/huodongzhongxin/sina.jpg) no-repeat left;
+}
+
+.weibo a:hover{
+	color: #00BFFF;
+	text-decoration: underline;
+}
+.foot{
+	margin-top: 30px;
+	text-align: center;
+}
+.foot a{
+	padding:0 5px ;
+	color: #000;
+}
+.foot p{
+	font: 14px "微软雅黑";
+	color: #C0C0C0;
+}
+
